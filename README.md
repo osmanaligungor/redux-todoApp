@@ -1,50 +1,27 @@
-## State Yöntemi
+<h1>Todo App</h1>
+  
+<p>This project is a simple todoApp built using React/React-Redux. It features a user-friendly design and is developed with the latest technologies.</p>
 
-- State: Uygulamadaki bileşenlerin sahip olduğu bilgi ve özelliklerdir.
+<h1>Features</h1>
 
-- Prop Drilling: Bileşenlerin yukarıdan aşşağıya veri taşımasıdır.
+<p>Responsive Layout: In this way, a compatible appearance is provided even on different screen sizes.</p>
+<p>Configurations for reducers, actionTypes, store, axios, uuid, react-toastify, and json-server have been completed.</p>
 
-- Context: Uygulamadki state'i bütün bileşenler tarafından erişilebilen ve oluşturduğumuz merkezlerde yönettiğimiz state yönetim aracı.
+<h1>Technologies Used</h1>
 
-- Redux: Bileşenlerin sahip olduğu ve merkezi olarak tutulması gereken state'lerin yönetildiği merkezi state yönetim aracıdır.
+<li>HTML5</li>
+<li>CSS3</li>
+<li>BOOTSTRAP</li>
+<li>JAVASCRIPT</li>
+<li>REACT</li>
+<li>REDUX</li>
+<li>axios</li>
+<li>uuid</li>
+<li>react-toastify</li>
+<li>json-server</li>
 
-## Neden Context Yerine Redux
 
-- Kod tekrarını önler
-- Performansı daha iyidir
-- Bileşenler içerisindeki karışıklığı azaltır.
-- Hata ayıklama daha kolaydır
-- Orta ve büyük ölçekli projelerde state yönetimini daha kolay hale getirir.
 
-## Redux İle İlgili Bilinmesi Gerkenler
+<h1>Preview</h1>
 
-1. Store: Uygulamanın bütün bileşenleri tarafından erişlebilen ve yönetilebilen state deposu.
-
-2. Reducer: Aksiyon ile aldığı talimata göre reducer'da tutulan state'in nasıl güncelleniceğine karar verir.
-
-3. Action (Eylem & Emir & Haber): State'in nasıl değişeceğini ifade eder.
-
-- Action iki değere sahip bir nesnedir
-- - type: action'un görevini tanımlayan string değer.
-- - payload: action yanında gönderdiğimiz veri
-
-4. Dispatch (Sevk etmek): Eylemi reducera aktarmaya yarayan fonksiyondur
-
-5. Subscribe (Abone olmak): Bileşenlerin store'da tutulan veriye erişim sağlaması
-
-6. Provider (Sağlayıcı): Store'da tutulan verileri uygulamaya sağlar
-
-## Gerçek Hayattan Benzer
-
-1. Store: Okul Binası
-
-2. Reducer: Okul Yönetim Ekibi (Müdür, Müdür Yard.)
-
-3. Action: "Yeni Kayıt" | "Okuldan Atılma" | "Sınav Geçildi"
-
-4. Dispatch: Öğrenci İşleri | Öğretmen
-
-5. Subscribe: e-okul |  rehberlik servisi
-
-6. Provider: MEB
-# redux-todoApp
+![Screen Recording 2025-02-18 at 14 37 37](https://github.com/user-attachments/assets/d2125b07-5ec7-4e0c-a69e-ebcad041f8b8)
