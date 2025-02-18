@@ -14,6 +14,7 @@
 <li>BOOTSTRAP</li>
 <li>JAVASCRIPT</li>
 <li>REACT</li>
+<li>VITE</li>
 <li>REDUX</li>
 <li>axios</li>
 <li>uuid</li>
